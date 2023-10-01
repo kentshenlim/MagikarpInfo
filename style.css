@@ -48,6 +48,7 @@ ul.navigator {
   display: flex;
   justify-content: center;
   gap: 30%;
+  padding: 0;
 }
 
 ul.navigator > li {
@@ -81,4 +82,21 @@ a:hover {
   height: 40vh;
   width: 50%;
   cursor: grab;
+}
+
+p,
+a {
+  font-size: 1.25rem;
+}
+
+p {
+  text-align: left;
+}
+
+img {
+  width: 40%;
+}
+
+img.map {
+  width: 70%;
 }
