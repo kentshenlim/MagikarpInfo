@@ -5,7 +5,12 @@ Basic informational site written to practice Node.js
 ## How to Run
 
 - Demo at [Replit](https://magikarpinfo.kentshenlim.repl.co/)
-- Otherwise clone → `npm install` → `npm start` → visit `http://localhost:8080`
+- If link broken, click "Run" on this page [Replit] (https://replit.com/@kentshenlim/MagikarpInfo)
+- Otherwise if Replit does not deploy (possibly paywall issue)
+  - clone this repo
+  - `npm install`
+  - `npm start`
+  - visit `http://localhost:8080`
 
 ## Tools
 
