@@ -64,7 +64,8 @@ const path = require('path');
     res.end();
   });
 
-  server.listen(port, hostname, () => {
-    console.log(`The server is live at http://${hostname}:${port}`);
+  server.listen(process.env.PORT || port, () => {
+    if (process.env.port) console.log(`Port number: ${process.env.port}`);
+    else console.log(`The server is live at http://${hostname}:${port}`);
   });
 })();
