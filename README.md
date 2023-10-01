@@ -13,5 +13,5 @@ Basic informational site written to practice Node.js
   [Creative Commons
   Attribution-ShareAlike](http://creativecommons.org/licenses/by-sa/4.0/).
 - Magikarp image and info text from
-  [pokemondb](https://pokemondb.net/pokedex/magikarps)
+  [pokemondb](https://pokemondb.net/pokedex/magikarp)
 - Fainted Magikarp from [SmashBoards](https://smashboards.com/threads/pokemon-129-magikarp-for-super-smash-bros-4.335718/page-2)
