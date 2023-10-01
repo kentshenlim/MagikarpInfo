@@ -2,6 +2,11 @@
 
 Basic informational site written to practice Node.js
 
+## How to Run
+
+- Demo at [Replit](https://magikarpinfo.kentshenlim.repl.co/)
+- Otherwise clone → `npm install` → `npm start` → visit `http://localhost:8080`
+
 ## Tools
 
 - Node.js
