@@ -7,3 +7,7 @@ Basic informational site written to practice Node.js
 - Node.js
 
 ## Credits
+
+## TODO
+
+- TODO: add img at readme
