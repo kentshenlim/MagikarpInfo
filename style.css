@@ -6,14 +6,13 @@
 :root {
   --COLOR-ACCENT: #212020;
   --COLOR-PRIMARY: #3b4d4c;
+  padding: 0;
+  margin: 0;
 }
 
 body {
   margin: 0;
   padding: 1rem;
-  width: 100vw;
-  height: 100vh;
-  border: solid transparent 3px;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('./img/bgBright.png');
   color: var(--COLOR-PRIMARY);
@@ -25,13 +24,14 @@ body.error {
 
 .wrapper {
   width: 50%;
-  min-width: 700px;
+  min-width: 400px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   background-color: #88cedf8f;
-  box-shadow: 0px 0px 10px #96d7ef;
+  box-shadow: 0px 0px 5px #96d7ef;
   backdrop-filter: blur(3px);
   border-radius: 0.75rem;
   padding: 1rem;
@@ -41,12 +41,13 @@ body.error {
 
 h1 {
   color: var(--COLOR-ACCENT);
+  width: 70%;
 }
 
 ul.navigator {
   display: flex;
   justify-content: center;
-  gap: 10%;
+  gap: 30%;
 }
 
 ul.navigator > li {
@@ -54,6 +55,8 @@ ul.navigator > li {
   padding: 1rem;
   padding-block: 0.5rem;
   border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
 }
 
 ul.navigator > li:has(a:hover) {
@@ -72,4 +75,10 @@ a {
 
 a:hover {
   color: white;
+}
+
+#model {
+  height: 40vh;
+  width: 50%;
+  cursor: grab;
 }

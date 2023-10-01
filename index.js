@@ -34,6 +34,24 @@ const path = require('path');
       return;
     }
 
+    // If requesting JS
+    if (req.url.startsWith('/js')) {
+      const filePath = path.join(__dirname, req.url);
+      const readStream = fsAsync.createReadStream(filePath);
+      res.writeHead(200, { 'Content-Type': 'text/javascript' });
+      readStream.pipe(res); // Do not res.end() here!
+      return;
+    }
+
+    // If requesting GLB
+    if (req.url.includes('.glb')) {
+      const filePath = path.join(__dirname, req.url);
+      const readStream = fsAsync.createReadStream(filePath);
+      res.writeHead(200, { 'Content-Type': 'model/gltf-binary' });
+      readStream.pipe(res); // Do not res.end() here!
+      return;
+    }
+
     // Otherwise requesting HTML
     try {
       const htmlData = await fs.readFile(fileMap[pathname] || fileMap.error);

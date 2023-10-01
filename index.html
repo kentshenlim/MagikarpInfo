@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MagikarpInfo</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js"
+      integrity="sha512-n8IpKWzDnBOcBhRlHirMZOUvEq2bLRMuJGjuVqbzUJwtTsgwOgK5aS0c1JA647XWYfqvXve8k3PtZdzpipFjgg=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
   </head>
 
   <body>
     <div class="wrapper">
-      <h1>Splash into Greatness, Just Like Magikarp!</h1>
+      <h1>Splash into Greatness, <br />Just Like Magikarp!</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia sed
-        labore ex nostrum qui nesciunt veniam ducimus, aperiam, perferendis
-        beatae modi, soluta deserunt consectetur? Corrupti eaque ad sapiente
-        blanditiis ipsum! Ratione, quasi eius. Distinctio fugit quis ipsa quam,
-        blanditiis veniam error ratione sit eos illo mollitia tempora, optio
-        repellendus aperiam!
+        Embrace the humble beginnings, for progress, no matter how gradual, is a
+        path to extraordinary heights. In the vast sea of potential, every small
+        ripple of improvement is a testament to your determination and a promise
+        of a triumphant leap forward.
       </p>
+      <div id="model"></div>
 
       <ul class="navigator">
         <li class="hover">
@@ -29,4 +34,6 @@
       </ul>
     </div>
   </body>
+
+  <script src="./js/loadModel.mjs" type="module" defer></script>
 </html>
