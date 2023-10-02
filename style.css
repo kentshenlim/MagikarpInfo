@@ -53,8 +53,6 @@ ul.navigator {
 
 ul.navigator > li {
   list-style: none;
-  padding: 1rem;
-  padding-block: 0.5rem;
   border-radius: 0.75rem;
   display: flex;
   align-items: center;
@@ -72,6 +70,12 @@ ul.navigator > li:has(a:hover) {
 a {
   text-decoration: none;
   color: var(--COLOR-PRIMARY);
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  padding-block: 0.5rem;
+  display: flex;
+  align-items: center;
 }
 
 a:hover {
