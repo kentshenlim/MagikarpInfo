@@ -4,20 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MagikarpInfo</title>
-    <base href="http://localhost:8080/" />
-    <!-- Add this, else extra path will
-    not load CSS and images correctly -->
-    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <!-- Do not add
+    period in front of path, this is absolute path needed -->
   </head>
   <body class="error">
     <div class="wrapper">
       <h1>404 Error</h1>
-      <img src="./img/magikarpX.png" alt="Magikarp" />
+      <img src="/img/magikarpX.png" alt="Magikarp" />
       <h2>Invalid path</h2>
 
       <ul class="navigator">
         <li class="hover">
-          <a href="../">Go Back to Homepage</a>
+          <a href="/">Go Back to Homepage</a>
         </li>
       </ul>
     </div>
