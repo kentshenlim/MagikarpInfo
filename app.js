@@ -9,7 +9,7 @@ const path = require('path');
   app.use(express.static('public'));
 
   app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', '/html/index.html'));
+    res.sendFile('index.html', { root: './public/html' });
   });
 
   app.get('/about', (req, res) => {
