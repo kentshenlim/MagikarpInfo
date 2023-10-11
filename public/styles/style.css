@@ -14,12 +14,12 @@ body {
   margin: 0;
   padding: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url('./img/bgBright.png');
+  background-image: url('/img/bgBright.png');
   color: var(--COLOR-PRIMARY);
 }
 
 body.error {
-  background-image: url('./img/bgDark.png');
+  background-image: url('/img/bgDark.png');
 }
 
 .wrapper {
